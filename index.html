@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day Zaraa</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #ffecf2, #fff0f5);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s ease-in;
+        }
+        .heart {
+            color: #ff4d6d;
+            font-size: 50px;
+            animation: pulse 1.5s infinite;
+        }
+        .title {
+            color: #ff4d6d;
+            font-size: 24px;
+            margin: 15px 0;
+        }
+        .message {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            margin: 20px 0;
+        }
+        .rose {
+            font-size: 30px;
+            margin: 10px;
+            animation: wiggle 2s infinite;
+        }
+        .chocolate {
+            font-size: 30px;
+            margin: 10px;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes wiggle {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(10deg); }
+            75% { transform: rotate(-10deg); }
+            100% { transform: rotate(0deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1 class="title">Happy Valentine's Day, Zaraa!</h1>
+        <div class="message">
+            <p>Untuk seseorang yang membuat hari-hariku lebih berwarna...</p>
+            <p>Zaraa, kamu adalah hadiah terindah yang pernah kumiliki.
+            Setiap hari bersamamu adalah hari yang spesial bagiku.</p>
+            <p>Cintaku padamu seperti mawar merah ini 
+            <span class="rose">🌹</span>
+            yang akan selalu mekar dan indah selamanya.</p>
+            <p>Dan seperti coklat ini 
+            <span class="chocolate">🍫</span>
+            cintaku padamu akan selalu manis dan membuatmu bahagia.</p>
+            <p>Aku mencintaimu, Zaraa ❤️</p>
+        </div>
+        <div class="rose">🌹</div>
+        <div class="chocolate">🍫</div>
+        <div class="heart">❤️</div>
+    </div>
+</body>
+</html>
